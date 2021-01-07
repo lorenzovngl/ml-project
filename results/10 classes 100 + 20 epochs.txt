@@ -1,0 +1,44 @@
+Classes: 10
+Samples per class: 340
+Epochs: 100
+Fine tune epochs: 20
+
+Classification Report
+                           precision    recall  f1-score   support
+
+         Armillaria lutea       0.68      0.59      0.63        68
+     Byssomerulius corium       0.72      0.74      0.73        68
+     Coprinellus micaceus       0.77      0.72      0.74        68
+   Cylindrobasidium laeve       0.81      0.68      0.74        68
+      Ganoderma pfeifferi       0.78      0.79      0.79        68
+      Mycena galericulata       0.67      0.59      0.62        68
+         Plicatura crispa       0.67      0.78      0.72        68
+         Pluteus cervinus       0.55      0.62      0.58        68
+  Tricholoma scalpturatum       0.72      0.85      0.78        68
+Xerocomellus chrysenteron       0.91      0.88      0.90        68
+
+                 accuracy                           0.72       680
+                macro avg       0.73      0.72      0.72       680
+             weighted avg       0.73      0.72      0.72       680
+
+
+AFTER FINE TUNING
+
+Classification Report
+                           precision    recall  f1-score   support
+
+         Armillaria lutea       0.76      0.71      0.73        68
+     Byssomerulius corium       0.86      0.71      0.77        68
+     Coprinellus micaceus       0.83      0.72      0.77        68
+   Cylindrobasidium laeve       0.75      0.74      0.74        68
+      Ganoderma pfeifferi       0.84      0.79      0.82        68
+      Mycena galericulata       0.69      0.63      0.66        68
+         Plicatura crispa       0.64      0.85      0.73        68
+         Pluteus cervinus       0.65      0.78      0.71        68
+  Tricholoma scalpturatum       0.76      0.85      0.81        68
+Xerocomellus chrysenteron       0.98      0.90      0.94        68
+
+                 accuracy                           0.77       680
+           top_5_accuracy                           0.98       680
+                macro avg       0.78      0.77      0.77       680
+             weighted avg       0.78      0.77      0.77       680
