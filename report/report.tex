@@ -1,0 +1,122 @@
+\documentclass[12pt]{llncs}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{multirow}
+
+\usetikzlibrary{calc}
+\usepackage[
+	backend=bibtex,
+	style=numeric,
+	sorting=none]{biblatex}
+\addbibresource{references.bib}
+
+\title{Mushroom classification with VGG-16}
+\author{Lorenzo Vainigli \\
+lorenzo.vainigli@studio.unibo.it \\
+matr. 0000842756}
+\institute{Course of Machine Learning \\
+Laurea Magistrale in Informatica \\
+University of Bologna \\
+A.Y. 2020-2021}
+\date{\today}
+
+\pagestyle{plain}
+
+\begin{document}
+{\def\addcontentsline#1#2#3{}\maketitle}
+
+\begin{abstract}
+\ldots
+\end{abstract}
+
+\begingroup
+\let\clearpage\relax
+\renewcommand{\contentsname}{}
+\setcounter{tocdepth}{2}
+\tableofcontents
+\endgroup
+
+\section{Introduction}
+The purpose of this project is to study and build a classifier that is able to recognize images of mushorooms and categorieze them.\\
+The model was trained on the database from \cite{fgvc}, that contains about 100,000 images and 1,500 categories of mushorooms.
+VGG-16 was proposed by \cite{simonyan} an it is a powerful covolutional neural network able to reach an accuracy of 92.7\% on the ImageNet database \cite{deng}.
+
+\section{Methods}
+In this section we describe the process of building this project. We begin with an analysis of the dataset to take a look at the data that we will use for train, validation and test. \\
+Then we describe the steps followed to obtain the model for our purpose. Finally we describe the phases of train, validation and test.
+
+\subsection{Software}
+\begin{itemize}
+\item Google Colab and Google GPUs.
+\item Pandas and Tensorflow.
+\end{itemize}
+
+\subsection{Dataset analysis}
+The image dataset is composed by an hierarchical structure of folders named with the category name of the images that they contains. Precisely each folder name has the format \texttt{ID\_super-category\_category}, so we use this information to associate these two properties to the images. \\
+There are some annotation files but we ignore it, since our purpose is to associate each image of mushroom to its category and no more.
+
+\subsection{Transfer learning from VGG-16}
+Even if VGG-16 has achieved very good results, its architecture is very complex and it has a lot of parameters that needs to be tuned during training. This leads to a very expensive work if someone want to train VGG-16 from scratch. Instead, we want to use the pre-trained model, at least for convolutional layers, while we want to train the deep layers at the end of the architecture of VGG-16.
+
+\subsection{Image processing}
+\begin{itemize}
+\item \texttt{ImageDataGenerator}
+\item Image augmentation
+\end{itemize}
+
+\subsection{Train, validation and test}
+\begin{itemize}
+\item Description of the training with different number of classes and different number of samples per class.
+\item Time spent on training.
+\end{itemize}
+
+\section{Results}
+\begin{itemize}
+\item Description of different scores (accuracy, precision, recall, f1-score) resulted from the training with different number of classes and different number of samples per class.
+\end{itemize}
+\begin{center}
+\begin{tabular}{ |c|c|c|c|c|c| } 
+ \hline
+ \multirow{2}{4em}{\textbf{Classes}} & \multirow{2}{6em}{\textbf{Samples per class}} & \multicolumn{2}{|c|}{\textbf{MobileNetV2}} & \multicolumn{2}{|c|}{\textbf{Xception}} \\ 
+ \cline{3-6}
+ & & \textbf{Top-1} & \textbf{Top-5} & \textbf{Top-1} & \textbf{Top-5} \\
+ \hline 
+ 3 & 414 & 89\% & - & 89\% & - \\ 
+ \hline 
+ 10 & 340 & 77\% & 98\% & & \\
+ \hline 
+ 20 & 255 & 65\% & 95\% & & \\
+ \hline
+\end{tabular}
+
+\begin{tabular}{ |c|c|c|c|c|c|c|c| } 
+ \hline
+ \multirow{2}{4em}{\textbf{Classes}} & \multirow{2}{6em}{\textbf{Samples per class}} & \multicolumn{3}{|c|}{\textbf{MobileNetV2}} & \multicolumn{3}{|c|}{\textbf{Xception}} \\ 
+ \cline{3-8}
+ & & \textbf{Precision} & \textbf{Recall} & \textbf{F1-score} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-score} \\
+ \hline 
+ 3 & 414 & 89\% & 89\% & 89\% & 90\% & 89\% & 89\% \\ 
+ \hline 
+ 10 & 340 & 78\% & 77\% & 77\% & & & \\
+ \hline 
+ 20 & 255 & 66\% & 65\% & 65\% & & & \\
+ \hline
+\end{tabular}
+
+\end{center}
+
+\section{Discussion}
+\begin{itemize}
+\item Analysis and comparison of results.
+\end{itemize}
+
+\section{Conclusions}
+
+\subsection*{Further directions}
+
+\printbibliography[title={References}]
+
+\end{document}
