@@ -17,57 +17,76 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{fgvc}{online}{}
-    \name{author}{1}{}{%
-      {{hash=oFGVCTFW}{%
-         prefix={on},
-         prefixi={o\bibinitperiod},
-         family={Fine-Grained Visual\bibnamedelima Categorization},
-         familyi={F\bibinithyphendelim G\bibinitperiod\bibinitdelim
-  V\bibinitperiod\bibinitdelim C\bibinitperiod},
-         given={The Fifth\bibnamedelima Workshop},
-         giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
-  W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{FGVCTFWo1}
-    \strng{fullhash}{FGVCTFWo1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Fungi Classification Challenge}
-    \verb{url}
-    \verb https://sites.google.com/view/fgvc5/competitions/fgvcx/fungi
-    \endverb
-    \field{year}{2018}
-  \endentry
-
-  \entry{simonyan}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SK}{%
-         family={Simonyan},
+  \entry{mobilenetv2}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=SM}{%
+         family={Sandler},
          familyi={S\bibinitperiod},
-         given={Karen},
-         giveni={K\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
       }}%
-      {{hash=ZA}{%
-         family={Zisserman},
-         familyi={Z\bibinitperiod},
+      {{hash=HA}{%
+         family={Howard},
+         familyi={H\bibinitperiod},
          given={Andrew},
          giveni={A\bibinitperiod},
       }}%
+      {{hash=ZM}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Menglong},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zhmoginov},
+         familyi={Z\bibinitperiod},
+         given={Andrey},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CLC}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Liang-Chieh},
+         giveni={L\bibinithyphendelim C\bibinitperiod},
+      }}%
     }
-    \strng{namehash}{SKZA1}
-    \strng{fullhash}{SKZA1}
+    \strng{namehash}{SM+1}
+    \strng{fullhash}{SMHAZMZACLC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{Very Deep Convolutional Networks for Large-Scale Image
-  Recognition}
-    \field{journaltitle}{arXiv 1409.1556}
-    \field{month}{09}
-    \field{year}{2014}
+    \verb{eprint}
+    \verb 1801.04381
+    \endverb
+    \field{title}{MobileNetV2: Inverted Residuals and Linear Bottlenecks}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2019}
   \endentry
 
-  \entry{deng}{inproceedings}{}
+  \entry{xception}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=CF}{%
+         family={Chollet},
+         familyi={C\bibinitperiod},
+         given={François},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CF1}
+    \strng{fullhash}{CF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1610.02357
+    \endverb
+    \field{title}{Xception: Deep Learning with Depthwise Separable
+  Convolutions}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2017}
+  \endentry
+
+  \entry{imagenet}{inproceedings}{}
     \name{author}{6}{}{%
       {{hash=DJ}{%
          family={Deng},
@@ -119,6 +138,325 @@
   Recognition}
     \field{month}{06}
     \field{year}{2009}
+  \endentry
+
+  \entry{colab}{article}{}
+    \name{author}{6}{}{%
+      {{hash=PT}{%
+         family={Pessoa},
+         familyi={P\bibinitperiod},
+         given={Tiago},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Medeiros},
+         familyi={M\bibinitperiod},
+         given={Raul},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=NT}{%
+         family={Nepomuceno},
+         familyi={N\bibinitperiod},
+         given={Thiago},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BGB}{%
+         family={Bian},
+         familyi={B\bibinitperiod},
+         given={Gui-Bin},
+         giveni={G\bibinithyphendelim B\bibinitperiod},
+      }}%
+      {{hash=AV}{%
+         family={Albuquerque},
+         familyi={A\bibinitperiod},
+         given={V.H.C.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=FPP}{%
+         family={Filho},
+         familyi={F\bibinitperiod},
+         given={Pedro\bibnamedelima Pedrosa},
+         giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PT+1}
+    \strng{fullhash}{PTMRNTBGBAVFPP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/ACCESS.2018.2874767
+    \endverb
+    \field{pages}{1\bibrangedash 1}
+    \field{title}{Performance Analysis of Google Colaboratory as a Tool for
+  Accelerating Deep Learning Applications}
+    \field{volume}{PP}
+    \field{journaltitle}{IEEE Access}
+    \field{month}{10}
+    \field{year}{2018}
+  \endentry
+
+  \entry{tensorflow}{misc}{}
+    \name{author}{40}{}{%
+      {{hash=AM}{%
+         family={Abadi},
+         familyi={A\bibinitperiod},
+         given={Mart\'{\i}n},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Agarwal},
+         familyi={A\bibinitperiod},
+         given={Ashish},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Barham},
+         familyi={B\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Brevdo},
+         familyi={B\bibinitperiod},
+         given={Eugene},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CZ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Zhifeng},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Citro},
+         familyi={C\bibinitperiod},
+         given={Craig},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CGS}{%
+         family={Corrado},
+         familyi={C\bibinitperiod},
+         given={Greg\bibnamedelima S.},
+         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={Andy},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dean},
+         familyi={D\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Devin},
+         familyi={D\bibinitperiod},
+         given={Matthieu},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Ghemawat},
+         familyi={G\bibinitperiod},
+         given={Sanjay},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GI}{%
+         family={Goodfellow},
+         familyi={G\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Harp},
+         familyi={H\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=IG}{%
+         family={Irving},
+         familyi={I\bibinitperiod},
+         given={Geoffrey},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Isard},
+         familyi={I\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JY}{%
+         family={Jia},
+         familyi={J\bibinitperiod},
+         given={Yangqing},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Jozefowicz},
+         familyi={J\bibinitperiod},
+         given={Rafal},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KL}{%
+         family={Kaiser},
+         familyi={K\bibinitperiod},
+         given={Lukasz},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kudlur},
+         familyi={K\bibinitperiod},
+         given={Manjunath},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Levenberg},
+         familyi={L\bibinitperiod},
+         given={Josh},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Man\'{e}},
+         familyi={M\bibinitperiod},
+         given={Dandelion},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Monga},
+         familyi={M\bibinitperiod},
+         given={Rajat},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Moore},
+         familyi={M\bibinitperiod},
+         given={Sherry},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Murray},
+         familyi={M\bibinitperiod},
+         given={Derek},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={Olah},
+         familyi={O\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schuster},
+         familyi={S\bibinitperiod},
+         given={Mike},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Shlens},
+         familyi={S\bibinitperiod},
+         given={Jonathon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Steiner},
+         familyi={S\bibinitperiod},
+         given={Benoit},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Sutskever},
+         familyi={S\bibinitperiod},
+         given={Ilya},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Talwar},
+         familyi={T\bibinitperiod},
+         given={Kunal},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=TP}{%
+         family={Tucker},
+         familyi={T\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vanhoucke},
+         familyi={V\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vasudevan},
+         familyi={V\bibinitperiod},
+         given={Vijay},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=VF}{%
+         family={Vi\'{e}gas},
+         familyi={V\bibinitperiod},
+         given={Fernanda},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=VO}{%
+         family={Vinyals},
+         familyi={V\bibinitperiod},
+         given={Oriol},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=WP}{%
+         family={Warden},
+         familyi={W\bibinitperiod},
+         given={Pete},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wattenberg},
+         familyi={W\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wicke},
+         familyi={W\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Yuan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Xiaoqiang},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AM+1}
+  \strng{fullhash}{AMAABPBECZCCCGSDADJDMGSGIHAIGIMJYJRKLKMLJMDMRMSMDOCSMSJSBSITKTPVVVVVFVOWPWMWMYYZX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Software available from tensorflow.org}
+    \field{title}{{TensorFlow}: Large-Scale Machine Learning on Heterogeneous
+  Systems}
+    \verb{url}
+    \verb https://www.tensorflow.org/
+    \endverb
+    \field{year}{2015}
+  \endentry
+
+  \entry{tf-transfer}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Transfer learning and fine-tuning | TensorFlow Core}
+    \verb{url}
+    \verb https://www.tensorflow.org/tutorials/images/transfer_learning
+    \endverb
   \endentry
 \enddatalist
 \endinput

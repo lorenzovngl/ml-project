@@ -6,13 +6,13 @@ Fine tune epochs: 20
 Classification Report
                          precision    recall  f1-score   support
 
-       Plicatura crispa       0.98      0.96      0.97        83
-       Pluteus cervinus       0.82      0.84      0.83        83
-Tricholoma scalpturatum       0.87      0.86      0.86        83
+       Plicatura crispa       0.98      0.95      0.96        83
+       Pluteus cervinus       0.83      0.83      0.83        83
+Tricholoma scalpturatum       0.85      0.87      0.86        83
 
-               accuracy                           0.89       249
-              macro avg       0.89      0.89      0.89       249
-           weighted avg       0.89      0.89      0.89       249
+               accuracy                           0.88       249
+              macro avg       0.88      0.88      0.88       249
+           weighted avg       0.88      0.88      0.88       249
 
 
 AFTER FINE TUNING
@@ -21,9 +21,9 @@ Classification Report
                          precision    recall  f1-score   support
 
        Plicatura crispa       0.98      0.95      0.96        83
-       Pluteus cervinus       0.79      0.92      0.85        83
-Tricholoma scalpturatum       0.93      0.81      0.86        83
+       Pluteus cervinus       0.79      0.94      0.86        83
+Tricholoma scalpturatum       0.96      0.80      0.87        83
 
-               accuracy                           0.89       249                          
-              macro avg       0.90      0.89      0.89       249
-           weighted avg       0.90      0.89      0.89       249
+               accuracy                           0.90       249
+              macro avg       0.91      0.90      0.90       249
+           weighted avg       0.91      0.90      0.90       249

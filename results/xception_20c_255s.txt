@@ -1,0 +1,65 @@
+Classes: 20
+Samples per class: 255
+Epochs: 100
+Fine tune epochs: 20
+
+Classification Report
+                            precision    recall  f1-score   support
+
+          Armillaria lutea       0.59      0.63      0.61        51
+Auricularia auricula-judae       0.85      0.80      0.83        51
+      Byssomerulius corium       0.71      0.63      0.67        51
+      Coprinellus micaceus       0.78      0.61      0.68        51
+    Cylindrobasidium laeve       0.63      0.75      0.68        51
+         Fomes fomentarius       0.44      0.47      0.45        51
+       Fomitopsis pinicola       0.50      0.67      0.57        51
+      Ganoderma applanatum       0.44      0.53      0.48        51
+       Ganoderma pfeifferi       0.58      0.49      0.53        51
+     Hypholoma fasciculare       0.69      0.71      0.70        51
+          Leccinum scabrum       0.67      0.65      0.66        51
+       Mycena galericulata       0.56      0.59      0.57        51
+          Plicatura crispa       0.72      0.76      0.74        51
+          Pluteus cervinus       0.52      0.55      0.53        51
+   Psathyrella candolleana       0.60      0.55      0.57        51
+       Trametes versicolor       0.61      0.53      0.57        51
+   Tricholoma scalpturatum       0.67      0.65      0.66        51
+ Xerocomellus chrysenteron       0.52      0.47      0.49        51
+     Xerocomus ferrugineus       0.51      0.57      0.54        51
+         Xylodon paradoxus       0.92      0.71      0.80        51
+
+                  accuracy                           0.61      1020
+            top_5_accuracy                           0.94
+                 macro avg       0.63      0.61      0.62      1020
+              weighted avg       0.63      0.61      0.62      1020
+
+
+AFTER FINE TUNING
+
+Classification Report
+                            precision    recall  f1-score   support
+
+          Armillaria lutea       0.86      0.61      0.71        51
+Auricularia auricula-judae       0.85      0.86      0.85        51
+      Byssomerulius corium       0.71      0.69      0.70        51
+      Coprinellus micaceus       0.72      0.80      0.76        51
+    Cylindrobasidium laeve       0.69      0.71      0.70        51
+         Fomes fomentarius       0.54      0.61      0.57        51
+       Fomitopsis pinicola       0.59      0.63      0.61        51
+      Ganoderma applanatum       0.50      0.67      0.57        51
+       Ganoderma pfeifferi       0.70      0.61      0.65        51
+     Hypholoma fasciculare       0.71      0.76      0.74        51
+          Leccinum scabrum       0.86      0.71      0.77        51
+       Mycena galericulata       0.64      0.71      0.67        51
+          Plicatura crispa       0.81      0.76      0.79        51
+          Pluteus cervinus       0.56      0.69      0.62        51
+   Psathyrella candolleana       0.76      0.63      0.69        51
+       Trametes versicolor       0.67      0.63      0.65        51
+   Tricholoma scalpturatum       0.83      0.75      0.78        51
+ Xerocomellus chrysenteron       0.67      0.47      0.55        51
+     Xerocomus ferrugineus       0.58      0.78      0.67        51
+         Xylodon paradoxus       0.91      0.84      0.88        51
+
+                  accuracy                           0.70      1020
+            top_5_accuracy                           0.95
+                 macro avg       0.71      0.70      0.70      1020
+              weighted avg       0.71      0.70      0.70      1020
