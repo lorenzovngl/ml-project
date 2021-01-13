@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.11)  12 JAN 2021 18:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.11)  13 JAN 2021 10:59
 entering extended mode
 **./report.tex
 (report.tex
@@ -1209,25 +1209,25 @@ Package biblatex Info: Reference segment=0 on input line 32.
  [1
 
 {C:/Users/LorenzoVainigli/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Overfull \hbox (5.93039pt too wide) in paragraph at lines 57--59
+Overfull \hbox (5.93039pt too wide) in paragraph at lines 58--60
 \OT1/cmr/m/n/12 cisely each folder name has the for-mat \OT1/cmtt/m/n/12 ID[]su
 per-category[]category\OT1/cmr/m/n/12 ,
  []
 
 [2]
-<classes.png, id=16, 936.49875pt x 444.66125pt>
+<classes.png, id=17, 936.49875pt x 444.66125pt>
 File: classes.png Graphic file (type png)
 <use classes.png>
-Package pdftex.def Info: classes.png  used on input line 62.
+Package pdftex.def Info: classes.png  used on input line 63.
 (pdftex.def)             Requested size: 347.12354pt x 164.82062pt.
 
-Overfull \hbox (7.32626pt too wide) in paragraph at lines 71--72
+Overfull \hbox (7.32626pt too wide) in paragraph at lines 72--73
 []\OT1/cmtt/m/n/12 tf.keras.applications.xception.preprocess[]input \OT1/cmr/m/
 n/12 for Xcep-
  []
 
 [3 <./classes.png>] [4]
-Overfull \hbox (2.75839pt too wide) in paragraph at lines 186--187
+Overfull \hbox (2.75839pt too wide) in paragraph at lines 187--188
  [][] 
  []
 
@@ -1235,24 +1235,24 @@ Overfull \hbox (2.75839pt too wide) in paragraph at lines 186--187
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5]
-Underfull \vbox (badness 1521) has occurred while \output is active []
+Underfull \vbox (badness 7291) has occurred while \output is active []
 
  [6]
-Overfull \hbox (4.30415pt too wide) in paragraph at lines 201--201
+Overfull \hbox (4.30415pt too wide) in paragraph at lines 202--202
 \OT1/cmtt/m/n/12 https : / / www . tensorflow . org / tutorials / images / tran
 sfer _
  []
 
-[7] (report.aux)
+[7] [8] (report.aux)
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34204 strings out of 479799
- 843359 string characters out of 2864972
- 1387320 words of memory out of 3000000
- 50704 multiletter control sequences out of 15000+200000
+ 34207 strings out of 479799
+ 843463 string characters out of 2864972
+ 1387360 words of memory out of 3000000
+ 50707 multiletter control sequences out of 15000+200000
  542505 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,19n,111p,1853b,2302s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1268,9 +1268,9 @@ s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/LorenzoVainigli/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/
 LorenzoVainigli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 tt12.pfb>
-Output written on report.pdf (7 pages, 167785 bytes).
+Output written on report.pdf (8 pages, 169390 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -15,12 +15,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4}Transfer learning}{4}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Fine tuning}{4}{}%
+\contentsline {subsection}{\numberline {2.5}Fine tuning}{5}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.6}Hyperparameters}{5}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Results}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Discussion}{5}{}%
+\contentsline {section}{\numberline {4}Discussion}{6}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Conclusions}{7}{}%

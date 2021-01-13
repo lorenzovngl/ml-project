@@ -140,6 +140,30 @@
     \field{year}{2009}
   \endentry
 
+  \entry{fgvc}{online}{}
+    \name{author}{1}{}{%
+      {{hash=oFGVCTFW}{%
+         prefix={on},
+         prefixi={o\bibinitperiod},
+         family={Fine-Grained Visual\bibnamedelima Categorization},
+         familyi={F\bibinithyphendelim G\bibinitperiod\bibinitdelim
+  V\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={The Fifth\bibnamedelima Workshop},
+         giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
+  W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FGVCTFWo1}
+    \strng{fullhash}{FGVCTFWo1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Fungi Classification Challenge}
+    \verb{url}
+    \verb https://sites.google.com/view/fgvc5/competitions/fgvcx/fungi
+    \endverb
+    \field{year}{2018}
+  \endentry
+
   \entry{colab}{article}{}
     \name{author}{6}{}{%
       {{hash=PT}{%
